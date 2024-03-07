@@ -7,9 +7,15 @@
 nav,
 .container-1,
 .informations,
-footer {
+.action-btn-continer {
   max-width: 1440px;
   margin: auto;
+}
+footer p {
+  text-align: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 3rem;
 }
 
 a {
@@ -55,7 +61,8 @@ nav ul,
 .container-1-text,
 .informations,
 .informations-container,
-.info-img-text {
+.info-img-text,
+.action-btn-continer {
   display: flex;
   justify-content: space-between;
 }
@@ -122,4 +129,22 @@ nav ul {
 .info-img-text img:hover {
   background-color: #92b6f0;
   cursor: pointer;
+}
+
+.action-btn-continer {
+  background-color: #3882f6;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  justify-content: space-around;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  border-radius: 1rem;
+  color: #f9faf8;
+}
+.action-btn button {
+  border: 3px solid #f9faf8;
+}
+h4 {
+  font-size: 22px;
+  margin-bottom: 5px;
 }
