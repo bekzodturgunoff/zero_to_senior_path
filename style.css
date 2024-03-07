@@ -7,7 +7,8 @@
 nav,
 .container-1,
 .informations,
-.action-btn-continer {
+.action-btn-continer,
+.motiv {
   max-width: 1440px;
   margin: auto;
 }
@@ -62,14 +63,18 @@ nav ul,
 .informations,
 .informations-container,
 .info-img-text,
-.action-btn-continer {
+.action-btn-continer,
+.motiv {
   display: flex;
   justify-content: space-between;
 }
 .nav-background,
-.container-1-background,
-.motiv-background {
+.container-1-background {
   background-color: #1f2937;
+}
+
+.motiv-background {
+  background-color: #e5e7eb;
 }
 nav img {
   width: 200px;
@@ -80,7 +85,8 @@ nav ul {
   list-style: none;
 }
 .container-1,
-.informations {
+.informations,
+.motiv {
   padding-top: 5rem;
   padding-bottom: 10rem;
   gap: 2rem;
@@ -98,7 +104,8 @@ nav ul {
 }
 .informations,
 .container-1-text,
-.info-img-text {
+.info-img-text,
+.motiv {
   flex-direction: column;
 }
 .container-1-text {
@@ -129,6 +136,24 @@ nav ul {
 .info-img-text img:hover {
   background-color: #92b6f0;
   cursor: pointer;
+}
+
+.motiv {
+  height: 100px;
+  gap: 1px;
+}
+
+.motiv p {
+  font-size: 20px;
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  letter-spacing: 3px;
+  line-height: 2.7rem;
+}
+
+.motiv h3 {
+  text-align: end;
 }
 
 .action-btn-continer {
